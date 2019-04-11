@@ -25,6 +25,7 @@ use Network::PacketParser; # import
 use base qw(Network::PacketParser);
 use utf8;
 use Carp::Assert;
+use Utils::Assert;
 use Scalar::Util;
 use Socket qw(inet_aton inet_ntoa);
 
@@ -757,7 +758,7 @@ sub received_characters {
 		message T("Waiting for PIN code request\n"), "connection";
 		$timeout{'charlogin'}{'time'} = time;
 
-	} elsif ($masterServer->{pauseCharLogin}) {
+	} elsif ($config{pauseCharLogin}) {
 		return if($config{XKore} eq 1 || $config{XKore} eq 3);
 		if (!defined $timeout{'char_login_pause'}{'timeout'}) {
 			$timeout{'char_login_pause'}{'timeout'} = 2;
@@ -5186,7 +5187,7 @@ sub job_equipment_hair_change {
 	return unless changeToInGameState();
 
 	my $actor = Actor::get($args->{ID});
-	assert(UNIVERSAL::isa($actor, "Actor")) if DEBUG;
+	assertClass($actor, "Actor") if DEBUG;
 
 	if ($args->{part} == 0) {
 		# Job change

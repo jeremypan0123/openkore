@@ -27,7 +27,7 @@ addTableFolders bRO
 charBlockSize 144
 pinCode 1
 charDeleteDateType 1
-sendCryptKeys 0x6ED45629, 0x37230BF8, 0x28EB3D36
+sendCryptKeys 0x28083E2C, 0x517C5054, 0x4633166D
 blockingPlayerCancel 1
 rankingSystemType 1
 
@@ -49,7 +49,7 @@ addTableFolders bRO
 charBlockSize 144
 pinCode 1
 charDeleteDateType 1
-sendCryptKeys 0x6ED45629, 0x37230BF8, 0x28EB3D36
+sendCryptKeys 0x28083E2C, 0x517C5054, 0x4633166D
 blockingPlayerCancel 1
 rankingSystemType 1
 
@@ -71,10 +71,8 @@ secureLogin_account 0
 storageEncryptKey 0x050B6F79, 0x0202C179, 0x0E20120, 0x04FA43E3, 0x0179B6C8, 0x05973DF2, 0x07D8D6B, 0x08CB9ED9
 pinCode 1
 charDeleteDateType 1
-pauseCharLogin 1
 blockingPlayerCancel 1
 rankingSystemType
-pauseCharLogin 1
 
 # http://www.ragnarokeurope.com/
 [France - fRO]
@@ -89,7 +87,6 @@ serverType fRO
 serverEncoding Western
 addTableFolders fRO
 charBlockSize 116
-pauseCharLogin 1
 
 # https://ror.gravindo.id/
 [Indonesia - idRO: Odin]
@@ -110,7 +107,6 @@ addTableFolders idRO
 charBlockSize 144
 charDeleteDateType 1
 blockingPlayerCancel 1
-pauseCharLogin 1
 rankingSystemType 1
 
 # Renewal
@@ -128,10 +124,9 @@ patchpath /patch02
 addTableFolders iRO/Renewal;iRO
 charBlockSize 147
 charDeleteDateType 1
-sendCryptKeys 0x708A2CB7, 0x207108B3, 0x7B1C1D7F
+sendCryptKeys 0x2BB11477, 0x1A622B2C, 0x3AD04FE6
 blockingPlayerCancel 1
 rankingSystemType 1
-pauseCharLogin 1
 
 # http://playragnarok.com
 [International - iRO: Sakray]
@@ -139,14 +134,14 @@ ip 128.241.92.195
 port 6800
 master_version 14
 version 18
-serverType iRO_Renewal #it use same iRO:RE  ? / made new servertype for it 
+serverType iRO_Sakray
 serverEncoding Western
-addTableFolders iRO/Renewal;iRO #it use same iRO:RE  ?
-charDeleteDateType 1
+addTableFolders iRO/Sakray;iRO
 charBlockSize 147
-sendCryptKeys 0x389B389B, 0x389B389B, 0x389B389B #it use same iRO:RE  ?
+sendCryptKeys 0x389B389B, 0x389B389B, 0x389B389B
 rankingSystemType 1
 blockingPlayerCancel 1
+charDeleteDateType 1
 
 # Pre-renewal
 # http://playragnarok.com
@@ -176,9 +171,8 @@ charBlockSize 145
 pauseCharLogin 1
 patchserver ropatch1.gravityus.com
 patchpath /repatch
-sendCryptKeys 0x46356386, 0x159E1F4A, 0x54FD4DFD
+sendCryptKeys 0x3AC47CD4, 0x56D2634E, 0x62414FA1
 rankingSystemType 1
-pauseCharLogin 1
 
 # TODO: needs a servertype & table folder
 # https://ragnarokonline.gungho.jp/
