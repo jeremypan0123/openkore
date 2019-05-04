@@ -2348,6 +2348,13 @@
 4630#Carta Diretor#
 4631#Carta Visconde Coruja#
 4632#Carta Marquês Coruja#
+4652#Carta Amon Ra do Pesadelo#
+4653#Carta Arclouse do Pesadelo#
+4654#Carta Mímico do Pesadelo#
+4655# Carta Minorous do Pesadelo#
+4656#Carta Múmia do Pesadelo#
+4657#Carta Múmia Anciã do Pesadelo#
+4658#Carta Verit do Pesadelo#
 4697#Carta Charleston 03#
 4698#Carta Roboring#
 4699#Carta Mecha v2.0#
@@ -4765,6 +4772,7 @@
 12276#Assistente Mímico#
 12277#Assistente Mascarado#
 12278#Assistente Alice#
+12291#Garrafa de Água#
 12292#Fruto de Yggdrasil Amargo#
 12293#Fruto de Yggdrasil Desidratado#
 12298#Suco de Gato#
@@ -6353,6 +6361,7 @@
 19602#Chapéu Invisível#
 19603#Óculos Invisíveis#
 19604#Máscara Invisível#
+19605#Lenço do Fora da Lei#
 19607#Filhote de Fênix#
 19612#Fones Audio-Poring#
 19614#Supervisual de Aprendiz#
@@ -6955,6 +6964,7 @@
 28200#Lança-Granadas Caos Total#
 28201#Cruz Meridional#
 28202#Cruz Meridional#
+28256#Escopeta Ancestral#
 28319#Cauda Demoníaca#
 28321#Garra do Falcoeiro#
 28322#Luva do Falcoeiro#
@@ -7097,6 +7107,14 @@
 31203#Churrasquelmo#
 31208#Cabelo Longo Loiro#
 31209#Cabelo Longo Branco#
+31218#Rabo de Unicórnio Céu#
+31219#Rabo de Unicórnio Rubi#
+31220#Rabo de Unicórnio Ouro#
+31221#Rabo de Unicórnio Limão#
+31222#Rabo de Unicórnio Choco#
+31223#Rabo de Unicórnio Neve#
+31224#Rabo de Unicórnio Bronze#
+31225#Rabo de Unicórnio Lilás#
 31244#Elmo das Falcoeiras de Rapina#
 31249#Orelhas do Coelho da Lua#
 31251#Boca de Gatinho#
@@ -7168,6 +7186,7 @@
 31575#Peruca Turquesa de Waifu#
 31586#Cachecol de Poporing#
 31587#Super Capacete de Kunlun#
+31598#Chapéu Natureba#
 32018#Lança Ancestral#
 32205#Anel de Esmeralda#
 32221#Anel do Senhor do Tempo#
