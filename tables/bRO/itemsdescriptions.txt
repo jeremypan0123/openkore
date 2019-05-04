@@ -7131,9 +7131,9 @@ Um cajado com uma gema que emana ondas de energia constantes. Dizem que essas on
 ^a400cdIndestrutível em batalha.^000000
 ^0000ffATQM +145.^000000
 ^0000ffINT +4.^000000
-^0000ffIgnora 10% da DEFM do oponente.^000000
+^0000ffIgnora 10% da DEFM de monstros normais, chefes e personagens.^000000
 A cada refino:
-^0000ffIgnora +1% da DEFM do oponente.^000000
+^0000ffIgnora +1 de DEFM adicional.^000000
 Tipo: ^777777Cajado^000000
 Ataque: ^77777780^000000
 Peso: ^77777750^000000
@@ -7250,7 +7250,7 @@ Cajado coberto de espinhos criado por feiticeiros poderosos.
 ^0000ffATQM +160.^000000
 ^0000ffINT +3. DES +3.^000000
 A cada refino:
-^0000ffIgnora 1% da DEFM do oponente.^000000
+^0000ffIgnora 1% da DEFM de monstros normais, chefes e personagens.^000000
 A cada 2 refinos:
 ^0000ffPós-conjuração -3%.^000000
 Tipo: ^777777Cajado^000000
@@ -7540,7 +7540,7 @@ Cajado coberto de espinhos criado por feiticeiros poderosos.
 ^0000ffATQM +160.^000000
 ^0000ffINT +3. DES +3.^000000
 A cada refino:
-^0000ffIgnora 1% da DEFM do oponente.^000000
+^0000ffIgnora 1% da DEFM de monstros normais, chefes e personagens.^000000
 A cada 2 refinos:
 ^0000ffPós-conjuração -3%.^000000
 Tipo: ^777777Cajado^000000
@@ -7744,7 +7744,7 @@ A cada refino:
 ^0000ffDano de [Chamas de Hela] +10%.^000000
 ^0000ffChance de ativar o [efeito] +4%.^000000
 A cada refino até o +10:
-^0000ffIgnora 5% da DEFM de monstros normais e Chefes.^000000
+^0000ffIgnora 5% da DEFM de monstros normais, chefes e personagens.^000000
 ^CD3278Efeito:^000000
 ^0000ffConjuração variável de [Chamas de Hela] -30%.^000000
 Tipo: ^777777Cajado^000000
@@ -10215,7 +10215,7 @@ A cada nível de [Passos de Salamandra]:
 A cada nível de [Passos de Sílfide]:
 ^0000ffDano mágico de propriedade Vento +10%.^000000
 A cada 2 refinos:
-^0000ffIgnora 5% da DEFM.^000000
+^0000ffIgnora 5% da DEFM de monstros normais, chefes, personagens e guardiões.^000000
 ^0000ffDano mágico de propriedade Fogo e Vento +5%.^000000
 ^0000ffDano de [Passos de Salamandra] e [Passos de Sílfide] +30%.^000000
 Refino +9 ou mais:
@@ -18648,11 +18648,12 @@ Utilização: ^777777Acessório^000000
 Peso: ^7777771^000000
 #
 4197#
-^0000ffSOR +1.
-Taxa de Esquiva +18 se o usuário estiver equipado com um item que tenha a carta Poring.^000000
-Combine com um item para utilizar sua propriedade.
-Classe: ^777777Carta^000000
-Utilização: ^777777Capa^000000
+^0000ffSOR +1.^000000
+^FA4E09Conjunto^000000
+^FA4E09[Carta Poring]^000000
+^0000ffEsquiva +18.^000000
+Tipo: ^777777Carta^000000
+Equipa em: ^777777Capa^000000
 Peso: ^7777771^000000
 #
 4198#
@@ -18755,11 +18756,11 @@ Utilização: ^777777Acessório^000000
 Peso: ^7777771^000000
 #
 4210#
-^0000ffAdiciona a chance de conjurar automaticamente a habilidade Rapto (nível 1), no inimigo, ao realizar um Ataque Físico.
-Se usada por personagens da Classe Gatuno e suas evoluções, receberá +20 de Taxa de Esquiva.^000000
-Combine com um item para utilizar sua propriedade.
-Classe: ^777777Carta^000000
-Utilização: ^777777Capa^000000
+^0000ffAo realizar ataques físicos, 2% de chance de autoconjurar [Rapto] nv. 1.^000000
+Gatunos e evoluções:
+^0000ffEsquiva +20.^000000
+Tipo: ^777777Carta^000000
+Equipa em: ^777777Capa^000000
 Peso: ^7777771^000000
 #
 4211#
@@ -19370,10 +19371,10 @@ Utilização: ^777777Arma^000000
 Peso: ^7777771^000000
 #
 4285#
-^0000ffEsquiva Perfeita +5, Taxa de Esquiva +10.^000000
-Combine com um item para utilizar sua propriedade.
-Classe: ^777777Carta^000000
-Utilização: ^777777Capa^000000
+^0000ffEsquiva +10.^000000
+^0000ffEsquiva perfeita +5.^000000
+Tipo: ^777777Carta^000000
+Equipa em: ^777777Capa^000000
 Peso: ^7777771^000000
 #
 4286#
@@ -19514,13 +19515,15 @@ Equipa em: ^777777Armadura^000000
 Peso: ^7777771^000000
 #
 4303#
-^0000ffTaxa de Esquiva +10.
-ATQ +20 se o usuário tiver 80 ou mais pontos de FOR.
-Máximo HP +3% se o usuário tiver 80 ou mais pontos de VIT.
-Crítico +3 se o usuário tiver 80 ou mais pontos de SOR.^000000
-Combine com um item para utilizar sua propriedade.
-Classe: ^777777Carta^000000
-Utilização: ^777777Capa^000000
+^0000ffEsquiva +10.^000000
+FOR base 80 ou mais:
+^0000ffATQ +20.^000000
+VIT base 80 ou mais:
+^0000ffHP máx. +3%.^000000
+SOR base 80 ou mais:
+^0000ffCRIT +3.^000000
+Tipo: ^777777Carta^000000
+Equipa em: ^777777Capa^000000
 Peso: ^7777771^000000
 #
 4304#
@@ -19540,11 +19543,12 @@ Equipa em: ^777777Arma^000000
 Peso: ^7777771^000000
 #
 4306#
-^0000ffEsquiva Perfeita +1.
-Se o usuário estiver equipado com um item que tenha a carta Sapo de Rodda, Taxa de Esquiva +18.^000000
-Combine com um item para utilizar sua propriedade.
-Classe: ^777777Carta^000000
-Utilização: ^777777Capa^000000
+^0000ffEsquiva perfeita +1.^000000
+^FA4E09Conjunto^000000
+^FA4E09[Carta Sapo de Rodda]^000000
+^0000ffEsquiva +18.^000000
+Tipo: ^777777Carta^000000
+Equipa em: ^777777Capa^000000
 Peso: ^7777771^000000
 #
 4307#
@@ -20036,9 +20040,9 @@ Equipado em: ^777777Equipamento para a cabeça^000000
 Peso: ^7777771^000000
 #
 4365#
-^0000ffIgnora 100% da DEFM dos monstros normais.^000000
-^0000ffTempo de conjuração variável +100%.^000000
-^0000ffRegeneração natural de SP -100%.^000000
+^0000ffConjuração variável^000000 ^ff0000+100%.^000000
+^0000ffIgnora 100% da DEFM de monstros normais e personagens.^000000
+^0000ffRegeneração natural de SP^000000 ^ff0000-100%.^000000
 Ao desequipar:
 ^0000ffDrena 2.000 de SP.^000000
 Tipo: ^777777Carta^000000
@@ -20652,7 +20656,7 @@ Peso: ^7777771^000000
 4440#
 Em Cajados de uma ou duas mãos:
 ^0000ffINT +1.^000000
-^0000ffIgnora 2% da DEFM de monstros normais e chefes.^000000
+^0000ffIgnora 2% da DEFM de monstros normais, chefes e personagens.^000000
 Tipo: ^777777Carta^000000
 Equipa em: ^777777Arma^000000
 Peso: ^7777771^000000
@@ -21837,6 +21841,74 @@ Ao realizar ou receber ataques físicos:
 ^0000ff2% de chance de autoconjurar [Ira de Thor] nv. 1.^000000
 Tipo: ^777777Carta^000000
 Equipa em: ^777777Acessório^000000
+Peso: ^7777771^000000
+#
+4652#
+^0000ffDano mágico contra as raças Demônio e Morto-Vivo +50%.^000000
+^0000ffDano mágico contra as propriedades Sombrio e Maldito +50%.^000000
+Tipo: ^777777Carta^000000
+Equipa em: ^777777Armadura^000000
+Peso: ^7777771^000000
+#
+4653#
+^0000ffResistência as raças Bruto e Morto-Vivo +20%.^000000
+^fa4e09Conjunto^000000
+^fa4e09[Carta Mímico do Pesadelo]^000000
+^0000ffResistência as raças Bruto e Morto-Vivo +5% adicional.^000000
+^fa4e09Conjunto^000000
+^fa4e09[Carta Minouros do Pesadelo]^000000
+^0000ffResistência as raças Bruto e Morto-Vivo +5% adicional.^000000
+Tipo: ^777777Carta^000000
+Equipa em: ^777777Escudo^000000
+Peso: ^7777771^000000
+#
+4654#
+^0000ffDano mágico contra as raças Bruto e Morto-Vivo +5%.^000000
+^fa4e09Conjunto^000000
+^fa4e09[Carta Arclouse do Pesadelo]^000000
+^0000ffIgnora 50% da DEFM das raças Bruto e Morto-Vivo.^000000
+Tipo: ^777777Carta^000000
+Equipa em: ^777777Arma^000000
+Peso: ^7777771^000000
+#
+4655#
+^0000ffDano físico contra as raças Bruto e Morto-Vivo +10%.^000000
+^fa4e09Conjunto^000000
+^fa4e09[Carta Arclouse do Pesadelo]^000000
+^0000ffIgnora 50% da DEF das raças Bruto e Morto-Vivo.^000000
+Tipo: ^777777Carta^000000
+Equipa em: ^777777Arma^000000
+Peso: ^7777771^000000
+#
+4656#
+Ao receber ataques físicos ou mágicos:
+^0000ff3% de chance de autoconjurar [Sussurro de Morfeu] nv. 2.^000000
+^fa4e09Conjunto^000000
+^fa4e09[Carta Múmia Anciã do Pesadelo]^000000
+^0000ffChance de autoconjurar [Sussurro de Morfeu] +2%.^000000
+Tipo: ^777777Carta^000000
+Equipa em: ^777777Calçado^000000
+Peso: ^7777771^000000
+#
+4657#
+^0000ffResistência a propriedade Neutro +15%.^000000
+A cada refino:
+^0000ffDano mágico de propriedade Fogo +3%.^000000
+^fa4e09Conjunto^000000
+^fa4e09[Carta Múmia do Pesadelo]^000000
+^0000ffResistência a propriedade Neutro +5% adicional.^000000
+Tipo: ^777777Carta^000000
+Equipa em: ^777777Capa^000000
+Peso: ^7777771^000000
+#
+4658#
+^0000ffDano mágico +5%.^000000
+Refino +7 ou mais:
+^0000ffDano mágico +3% adicional.^000000
+Refino +9 ou mais:
+^0000ffDano mágico +2% adicional.^000000
+Tipo: ^777777Carta^000000
+Equipa em: ^777777Calçado^000000
 Peso: ^7777771^000000
 #
 4697#
@@ -23967,21 +24039,21 @@ Classes que utilizam: ^777777Aprendiz^000000
 5126#
 Um capuz que é uma das das quatro chaves para o selo que prende Morpheus.
 ^0000ffINT +2.^000000
-^FF6347Conjunto^000000
-^FF6347[Véu de Morpheus]^000000
-^FF6347[Anel de Morpheus]^000000
-^FF6347[Bracelete de Morpheus]^000000
+^FA4E09Conjunto^000000
+^FA4E09[Véu de Morpheus]^000000
+^FA4E09[Anel de Morpheus]^000000
+^FA4E09[Bracelete de Morpheus]^000000
 ^0000ffDEFM +11.^000000
 ^0000ffSP máx. +20%.^000000
 ^0000ffINT +5 adicional.^000000
-^0000ffConjuração variável^000000 ^ff0000-25%.^00000
+^0000ffConjuração variável^000000 ^ff0000+25%.^000000
 ^0000ffA conjuração não pode ser interrompida.^000000
 Tipo: ^777777Equipamento para Cabeça^000000
 Equipa em: ^777777Topo^000000
 Defesa: ^7777773^000000
 Peso: ^77777720^000000
 Nível necessário: ^77777733^000000
-Classes: ^777777Todas, exceto Aprendizes e Superaprendizes^000000
+Classes: ^777777Todas, exceto Aprendizes^000000
 #
 5127#
 Um elmo que um dia pertenceu a Morrigane, a deusa da guerra.
@@ -24648,7 +24720,7 @@ Classes que utilizam: ^777777Todas^000000
 5195#
 Lacinho colorido usado para prender o cabelo. Ele parece simples, mas protege o usuário contra magias ofensivas.
 DEFM + 3.
-Tipo: ^777777Equipamento para a cabeça^00000
+Tipo: ^777777Equipamento para a cabeça^000000
 Defesa: ^7777771^000000
 Equipa em: ^777777Topo^000000
 Peso: ^77777710^000000
@@ -29315,6 +29387,34 @@ Equipa em: ^777777Topo^000000
 Defesa: ^77777712^000000
 Peso: ^77777780^000000
 Nível necessário: ^77777730^000000
+Classes: ^777777Todas^000000
+#
+5932#
+O pássaro livre sobre uma gaiola dominada por vinhas e flores é a representação perfeita de que quem prevalece no final sempre é a natureza.
+--------------------------
+^0000ffSOR +5. CRIT +5.^000000
+^0000ffEsquiva perfeita +5.^000000
+--------------------------
+Sentinelas e evoluções:
+^0000ffA cada refino:^000000
+^0000ffDano de [Ataque Aéreo] +5%.^000000
+--------------------------
+^FA4E09Conjunto^000000
+^FA4E09[Asas de Ixion]^000000
+Sentinelas e evoluções:
+^0000ffA cada refino do arco:^000000
+^0000ffDano de [Ataque Aéreo] +5%.^000000
+--------------------------
+^FA4E09Conjunto^000000
+^FA4E09[Carta Grand Peco]^000000
+Ao realizar ataques físicos:
+^0000ff2% de chance de autoconjurar [Glória] nv. 5.^000000
+--------------------------
+Tipo: ^777777Equipamento para Cabeça^000000
+Equipa em: ^777777Topo^000000
+Defesa: ^7777776^000000
+Peso: ^7777778^000000
+Nível necessário: ^77777740^000000
 Classes: ^777777Todas^000000
 #
 5933#
@@ -34282,7 +34382,7 @@ Ingresso especial que permite a entrada nos Mapas Especiais somente para persona
 ^CD3278Coord.:^000000 prontera 162, 326
 <NAVI>[Navegar]<INFO>prontera,162,326,0,000,0</INFO></NAVI>
 --------------------------
-Este ticket desaparecerá durante a manutenção de 02/10/2018. Aproveite e divirta-se!
+Este ticket desaparecerá durante a manutenção de 30/04/2019. Aproveite e divirta-se!
 --------------------------
 ^ff0000Atenção! Este item não pode ser trocado, derrubado no chão, colocado no carrinho e nem no armazém.^000000
 --------------------------
@@ -34473,8 +34573,8 @@ Ticket temporário criado pela Corporação Kafra.
 ^CD3278Coord.:^000000 prontera 141, 226
 <NAVI>[Navegar]<INFO>prontera,141,226,0,000,0</INFO></NAVI>
 --------------------------
-Promoção limitada até o dia ^ff000025.03.2019.^000000
-Este item será removido no dia ^ff000026.03.2019.^000000
+Promoção limitada até o dia ^ff000015.04.2019.^000000
+Este item será removido no dia ^ff000016.04.2019.^000000
 --------------------------
 Peso: ^7777771^000000
 #
@@ -35566,7 +35666,7 @@ Peso: ^7777770^000000
 Um ovo onde a Mascote Buzzy Brother dorme.
 Bônus para lealdade alta: Aumenta a resistência a ataques Neutros em 1%, HP Máx -1%.
 Você pode acordá-lo com uma Incubadora.
-Alimento: ^777777Ração para Bichinho^000000
+Alimento: ^777777Erva Verde^000000
 Tipo: ^777777Ovo de Bichinho^000000
 #
 9029#
@@ -37631,15 +37731,19 @@ Lanche para pessoas que vivem apressadas. O sabor não é dos melhores.
 Peso: ^7777777^000000
 #
 12274#
+^ff0000Intransferível.^000000
 Uma pílula feita de várias ervas e raízes medicinais.
-^0000ffMHP +5% e recuperação de HP +10% durante 1 hora.^000000
-Esse item não pode ser trocado entre personagens, vendido no npc, colocado no carrinho e colocado no armazém.
+^0000ffHP máx. +5%.^000000
+^0000ffRegeneração natural de HP +10%.^000000
+Duração: ^7777771 hora^000000
 Peso: ^7777771^000000
 #
 12275#
+^ff0000Intransferível.^000000
 Uma pílula feita de várias ervas e raízes mágicas.
-^0000ffMSP +5% e recuperação de SP +10% durante 1 hora.^000000
-Esse item não pode ser trocado entre personagens, vendido no npc, colocado no carrinho e colocado no armazém.
+^0000ffSP máx. +5%.^000000
+^0000ffRegeneração natural de SP +10%.^000000
+Duração: ^7777771 hora^000000
 Peso: ^7777771^000000
 #
 12276#
@@ -37656,6 +37760,14 @@ Peso: ^7777771^000000
 Um livro que permite invocar uma assistente Alice. Não é necessário alimentá-la.
 ^ffffff_^000000
 Peso: ^7777770^000000
+#
+12291#
+^ff0000Intransferível.^000000
+Garrafa com água potável.
+Sempre beba água, nos orgulhamos quando você se hidrata.
+^0000ffRecupera 5% de SP.^000000
+^0000ffAtiva [Aumentar Agilidade] nv. 5.^000000
+Peso: ^77777710^000000
 #
 12292#
 Um Fruto de Yggdrasil que ainda não amadureceu. Algumas pessoas gostam do sabor amargo da fruta que ainda verde, mas sua eficácia em recuperação é parecida com seu sabor.
@@ -38512,7 +38624,29 @@ Peso: ^77777750^000000
 #
 12641#
 Um ovo amaldiçoado criado em Niflheim capaz de trazer uma grande sorte a quem o carrega. Ao ser aberto, revela um presente especial.
-Peso : ^7777771^000000
+--------------------------
+^CD3278Ao abrir, concede 1 item aleatório abaixo:^000000
+^0000ff 1 - Pergaminho de Arma +9 - 0,01%.^000000
+^0000ff 1 - Pergaminho de Armadura +9 - 0,01%.^000000
+^0000ff 1 - Galho Sangrento - 0,50%.^000000
+^0000ff 1 - Álbum Mágico de Cartas - 0,50%.^000000
+^0000ff 1 - Pergaminho de Arma +7 - 0,90%.^000000
+^0000ff 1 - Pergaminho de Armadura +7 - 0,90%.^000000
+^0000ff 1 - Boneca da Vaidade - 1,40%.^000000
+^0000ff 1 - Chapéu Chinês do Andarilho - 1,98%.^000000
+^0000ff 1 - Velho Álbum de Cartas - 3,80%.^000000
+^0000ff 4 - Pergaminhos de Fantasma - 5%.^000000
+^0000ff 5 - Galhos Secos - 6%.^000000
+^0000ff 10 - Pergaminhos de Aspersio - 7%.^000000
+^0000ff 2 - Manuais de Combate - 8%.^000000
+^0000ff 2 - Gomas de Mascar - 9%.^000000
+^0000ff 3 - Seguros de Vida - 9%.^000000
+^0000ff 1 - Caixa de Mastela [100] - 10%.^000000
+^0000ff 1 - Arca do Tesouro - 12%.^000000
+^0000ff 1 - Caixa de Poção Branca Compacta [100] - 12%.^000000
+^0000ff 1 - Caixa de Veneno Mortal [30] - 12%.^000000
+--------------------------
+Peso: 1
 #
 12642#
 Uma caixa contendo 100 Mastelas. Uma fruta roxa, muito bela.
@@ -43941,8 +44075,26 @@ Caixa do Anel Crítico Aprimorado
 #
 14229#
 Dizem que é um ovo deixado pelos espíritos guardiões das Cerejeiras de Amatsu. Ao ser aberto, revela um presente especial.
-^ffffff_^000000
-Peso: ^7777771^000000
+--------------------------
+^CD3278Ao abrir, concede 1 item aleatório abaixo:^000000
+^0000ff 1 - Carta Osíris - 1%.^000000
+^0000ff 1 - Hélices - 1%.^000000
+^0000ff 1 - Carta Freeoni - 1%.^000000
+^0000ff 1 - Chifre de Unicórnio - 2%.^000000
+^0000ff 1 - Antenas Verdes - 2%.^000000
+^0000ff 1 - Asas de Anjo - 2%.^000000
+^0000ff 1 - Asas de Demônio - 2%.^000000
+^0000ff 1 - Coroa da Flor de Lótus [1] - 2%.^000000
+^0000ff 1 - Elmo de Orc Herói - 2%.^000000
+^0000ff 1 - Máscara de Kabuki [1] - 2%.^000000
+^0000ff 1 - Rosa Mística - 2%.^000000
+^0000ff 2 - Sementes de Yggdrasil - 15%.^000000
+^0000ff 10 - Gomas de Mascar - 16%.^000000
+^0000ff 10 - Seguros de Vida - 16%.^000000
+^0000ff 15 - Cartões Kafra - 17%.^000000
+^0000ff 10 - Manuais de Combate - 17%.^000000
+--------------------------
+Peso: 1
 #
 14232#
 Uma caixa contendo 10 Frutos de Yggdrasil.
@@ -44237,12 +44389,38 @@ Peso: ^7777771^000000
 #
 14308#
 Um ovo cheio de surpresas. Ao ser usado, concede um item aleatório.
-^ffffff_^000000
-Peso: ^7777771^000000
+--------------------------
+^CD3278Ao abrir, concede 1 item aleatório abaixo:^000000
+^0000ff 3 - Seguro Estendido - 1%.^000000
+^0000ff 1 - Galho Sangrento - 1%.^000000
+^0000ff 1 - Lacinho Rosa [1] - 5,50%.^000000
+^0000ff 1 - Lacinho Vermelho [1] - 5,50%.^000000
+^0000ff 3 - Manual de Combate - 7%.^000000
+^0000ff 1 - Seguro de Vida[10] - 9%.^000000
+^0000ff 3 - Cartões Kafra - 17%.^000000
+^0000ff 3 - Pudim de Guyak - 17%.^000000
+^0000ff 1 - Caixa de Galhos Secos [10] - 18%.^000000
+^0000ff 5 - Acarajés - 19%.^000000
+--------------------------
+Peso: 1
 #
 14316#
 Um ovo que emana uma animada energia amorosa. Ao ser aberto, você encontrará incrível prêmio em seu interior!
-Peso: ^7777771^000000
+--------------------------
+^CD3278Ao abrir, concede 1 item aleatório abaixo:^000000
+^0000ff 1 - Carta Algoz Eremes - 0,10%.^000000
+^0000ff 1 - Álbum Mágico de Cartas - 0,30%.^000000
+^0000ff 1 - Carta Tirfing - 0,50%.^000000
+^0000ff 1 - Boneca de Alice [1] - 1%.^000000
+^0000ff 1 - Fones Poringzor Ex71 [1] - 2,00%.^000000
+^0000ff 1 - Caixa de Corte de Cabelo - 11%.^000000
+^0000ff 10 - Pudins de Guyak - 12,10%.^000000
+^0000ff 3 - Enciclopédias de Combate - 15%.^000000
+^0000ff 20 - Fogos de Artifício: Dia dos Namorados - 18%.^000000
+^0000ff 10 - Chocolates dos Apaixonados - 20%.^000000
+^0000ff 10 - Tortas de Chocolate Cremosas - 20%.^000000
+--------------------------
+Peso: 1
 #
 14317#
 Qual surpresa a Lady Branca terá reservado para você? Ao ser aberto, revela um presente especial.
@@ -44427,9 +44605,12 @@ Um pergaminho que quando usado teleporta seu personagem diretamente para a entra
 Peso: ^7777771^000000
 #
 14529#
-Permite o uso da habilidade "Ganância".
-Se o personagem estiver em cidades quando utilizar o pergaminho, este será gasto mas não será atribuído o efeito.
-^ff0000Atenção! Esse item não pode ser negociado, derrubado no chão, colocado no carrinho ou no armazém.^000000
+Pergaminho mágico contendo uma habilidade de uso único.
+^0000ffUsa [Ganânica] nv. 1.^000000
+--------------------------
+^ff0000Intransferível.^000000
+^ff0000Em cidades, o item é gasto e a habilidade não é ativada.^000000
+--------------------------
 Peso: ^7777771^000000
 #
 14530#
@@ -44708,9 +44889,30 @@ Aumenta a resistência a ataques mágicos em 3% por 2 minutos.
 Peso : ^7777771^000000
 #
 14613#
-Ovo do RWC 2012
 Feito para celebrar o Ragnarök World Championship. Você poderá receber vários prêmios exclusivos.
-Peso : ^7777771^000000
+--------------------------
+^CD3278Ao abrir, concede 1 item aleatório abaixo:^000000
+^0000ff 1 - Pergaminho de Armadura +9 - 0,05%.^000000
+^0000ff 1 - Pergaminho de Arma +9 - 0,05%.^000000
+^0000ff 1 - Pergaminho de Armadura +7 - 0,9%.^000000
+^0000ff 1 - Pergaminho de Arma +7 - 0,9%.^000000
+^0000ff 1 - Álbum Mágico de Cartas - 1%.^000000
+^0000ff 1 - Adorno Arco-íris - 1,1%.^000000
+^0000ff 1 - Cajado Memorável do RWC [1] - 1,5%.^000000
+^0000ff 1 - Maça Memorável do RWC [1] - 1,5%.^000000
+^0000ff 1 - Adaga Memorável do RWC [1] - 1,5%.^000000
+^0000ff 1 - Chapéu de Penas Arco-íris [1] - 1,5%.^000000
+^0000ff 1 - Álbum para Armas - 5%.^000000
+^0000ff 1 - Álbum para Acessórios - 5%.^000000
+^0000ff 1 - Cupom de Aprimoramento do RWC - 10%.^000000
+^0000ff 1 - Caixa de Poção Branca Compacta [100] - 10%.^000000
+^0000ff 1 - Caixa de Veneno Mortal [30] - 10%.^000000
+^0000ff 1 - Arca do Tesouro - 10%.^000000
+^0000ff 3 - Galhos Secos - 10%.^000000
+^0000ff 2 - Chiclete - 15%.^000000
+^0000ff 2 - Manual de Campo - 15%.^000000
+--------------------------
+Peso: 1
 #
 14614#
 Poção que faz com que o usuário consiga enrijecer sua pele e criar uma aura em torno de si, preparada a partir de escamas e saliva de dragões além de ervas especiais.
@@ -46866,9 +47068,24 @@ Peso: ^7777771^000000
 #
 16253#
 Um ovinho muito gracioso, com orelhas de coelho.
-Esse item não pode ser negociado, derrubado no chão e colocado no carrinho, mas pode ser colocado no armazém.
-^ffffff_^000000
-Peso: ^7777771^000000
+--------------------------
+^CD3278Ao abrir, concede 1 item aleatório abaixo:^000000
+^0000ff 1 - Boina de Coelho [1] - 0,50%.^000000
+^0000ff 1 - Anel do Caçador Veterano [A] - 5%.^000000
+^0000ff 1 - Anel do Caçador de Morto-Vivo [A] - 5%.^000000
+^0000ff 1 - Anel do Ganhador [A] - 5%.^000000
+^0000ff 1 - Anel do Devastador [A] - 5%.^000000
+^0000ff 1 - Anel do Colecionador de Insetos [A] - 5%.^000000
+^0000ff 1 - Anel do Pescador [A] - 5%.^000000
+^0000ff 1 - Anel do Exorcista [A] - 5%.^000000
+^0000ff 1 - Anel do Açougueiro [A] - 5%.^000000
+^0000ff 1 - Anel do Anjo Caído [A] - 5%.^000000
+^0000ff 1 - Anel do Caçador de Dragões [A] - 5%.^000000
+^0000ff 1 - Doce Hiper Açucarado [10] - 5%.^000000
+^0000ff 1 - Caixa de Ovo da Fortuna [1] - 20%.^000000
+^0000ff 1 - Caixa de Fruto de Yggdrasil [10] - 24,50%.^000000
+--------------------------
+Peso: 1
 #
 16257#
 Um ovo que contém a promessa de surpresas contidas num novo amanhecer.
@@ -47030,8 +47247,24 @@ Peso: ^7777771^000000
 #
 16578#
 Ovo marcando a estréia do Instituto Kiel Hyre no mercado de ovos. Diferentemente dos outros, você não quebra o ovo; ele vem com um dispositivo ultra-tecnológico de fusão a frio que choca o ovo instantaneamente e lhe entrega o prêmio com uma garra mecânica.
-^0000ffAo ser aberto, concede uma surpresa aleatória.^000000
-Peso: ^7777771^000000
+--------------------------
+^CD3278Ao abrir, concede 1 item aleatório abaixo:^000000
+^0000ff 1 - Carta Kiel-D-01 - 0,10%.^000000
+^0000ff 5 - Grimórios de Combate - 0,50%.^000000
+^0000ff 1 - Hélices 2.0 - 0,50%.^000000
+^0000ff 1 - Caixa de Coquetéis Sopro do Dragão [10] - 1%.^000000
+^0000ff 1 - Olhos Biônicos - 1%.^000000
+^0000ff 1 - Caixa de Sashimi [10] - 3%.^000000
+^0000ff 5 - Gomas de Mascar - 3,90%.^000000
+^0000ff 10 - Pudins de Guyak - 10%.^000000
+^0000ff 2 - Manuais de Combate de Classe - 10%.^000000
+^0000ff 1 - Caixa Abençoada [10] - 10%.^000000
+^0000ff 1 - Elunium Enriquecido - 15%.^000000
+^0000ff 2 - Gomas de Mascar - 15%.^000000
+^0000ff 10 - Seguros de Vida - 15%.^000000
+^0000ff 1 - Caixa de Geleia Real [5] - 15%.^000000
+--------------------------
+Peso: 1
 #
 16579#
 Um ovo que carrega as promessas de uma nova chance. Ao ser aberto, ele é consumido por chamas mágicas, e em suas cinzas você encontrará um incrível prêmio!
@@ -47365,8 +47598,28 @@ Peso: ^7777770^000000
 Peso: ^7777771^000000
 #
 16774#
-Um belíssimo ovo que emana uma energia dourada revigorante. ^CD3278Ao ser aberto, revela um presente especial vindo diretamente da morada dos deuses.^000000
-Peso: ^7777771^000000
+Um belíssimo ovo que emana uma energia dourada revigorante.
+--------------------------
+^CD3278Ao abrir, concede 1 item aleatório abaixo:^000000
+^0000ff 1 - Carta Isilla - 0,10%.^000000
+^0000ff 1 - Diadema de Fricca - 0,10%.^000000
+^0000ff 1 - Escudo da Valquíria [1] - 0,10%.^000000
+^0000ff 1 - Medicina Secreta - 0,20%.^000000
+^0000ff 1 - Bênção de Asgard [1] - 0,50%.^000000
+^0000ff 1 - Bênção de Odin [1] - 0,50%.^000000
+^0000ff 1 - Carta Raydric - 0,50%.^000000
+^0000ff 1 - Elmo Sombrio - 2%.^000000
+^0000ff 1 - Penacho da Valquíria [1] - 2%.^000000
+^0000ff 30 - Bênçãos de Tyr - 10%.^000000
+^0000ff 1 - Caixa de Regeneração [10] - 10%.^000000
+^0000ff 10 - Doces Hiper Açucarados - 10%.^000000
+^0000ff 10 - Enciclopédias de Combate - 10%.^000000
+^0000ff 1 - Caixa de Amuletos [10] - 12%.^000000
+^0000ff 10 - Pudins de Guyak - 12%.^000000
+^0000ff 30 - Biscoitos da Sorte: Magnificat - 15%.^000000
+^0000ff 10 - Frutos de Yggdrasil - 15%.^000000
+--------------------------
+Peso: 1
 #
 16972#
 Uma caixa contendo os equipamentos visuais Sol Risonho, Arco Íris, Nuvem Chuvosa e Nuvem com Raios
@@ -48241,16 +48494,54 @@ Peso: ^7777771^000000
 #
 17305#
 Item criado pela Motoyo Doidage para disponibilizar suas incríveis criações de forma inusitada. É possível perceber que ele foi encantado para gerar aleatoriamente uma das criações de Doidage assim que aberto.
-^ffffff_^000000
-Peso: ^7777771^000000
+--------------------------
+^CD3278Ao abrir, concede 1 item aleatório abaixo:^000000
+^0000ff 1 - Fivela de Sakura - 10%.^000000
+^0000ff 1 - Tiara de Sakura - 10%.^000000
+^0000ff 1 - Orelhas de Fada Travessa - 10%.^000000
+^0000ff 1 - Caneca de Chá Oriental - 10%.^000000
+^0000ff 1 - Presilha de Borboleta - 10%.^000000
+^0000ff 1 - Touca de Abelha - 10%.^000000
+^0000ff 1 - Presilha de Angeling - 10%.^000000
+^0000ff 1 - Coroa do Imperador - 10%.^000000
+^0000ff 1 - Peruca Maravilinda - 10%.^000000
+^0000ff 1 - Orelhas de Fada Animada - 10%.^000000
+--------------------------
+Peso: 1
 #
 17323#
-Uma coleção de itens de Shinobis. ^0000FFAo ser aberto, você encontrará um incrível prêmio aleatório.^000000
-Peso : ^7777771^000000
+Uma coleção de itens de Shinobis.
+--------------------------
+^CD3278Ao abrir, concede 1 item aleatório abaixo:^000000
+^0000ff 1 - Presilha do Festival - 5%.^000000
+^0000ff 1 - Elmo do Xogum - 5%.^000000
+^0000ff 1 - Máscara da ANBU - 5%.^000000
+^0000ff 1 - Pergaminho dos Selos - 10%.^000000
+^0000ff 1 - Chapéu do Gama-sama - 10%.^000000
+^0000ff 1 - Nove Caudas Dorminhoca - 10%.^000000
+^0000ff 1 - Elmo da Lua Crescente - 10%.^000000
+^0000ff 1 - Cata-vento Elegante - 15,00%.^000000
+^0000ff 1 - Máscara do Xogum - 15%.^000000
+^0000ff 1 - Cata-vento Vermelho - 15%.^000000
+--------------------------
+Peso: 1
 #
 17428#
 Um ovo representando os Coelhos da Páscoa e seus parentes. Ao ser aberto, concede um item visual aleatório.
-Peso : ^7777771^000000
+--------------------------
+^CD3278Ao abrir, concede 1 item aleatório abaixo:^000000
+^0000ff 1 - Tiara Satélite - 10%.^000000
+^0000ff 1 - Touca de Coelho - 10%.^000000
+^0000ff 1 - Cartola da Mekoro - 10%.^000000
+^0000ff 1 - Olho do Beholder - 10%.^000000
+^0000ff 1 - Coelho de Pano - 10%.^000000
+^0000ff 1 - Orelhas Fabulosas - 10%.^000000
+^0000ff 1 - Tiara Estelar - 10%.^000000
+^0000ff 1 - Coelhinho Carinhoso - 10%.^000000
+^0000ff 1 - Vaso de Planta Anti-Z - 10%.^000000
+^0000ff 1 - Gorro da Piamette - 10%.^000000
+--------------------------
+Peso: 1
 #
 18000#
 Projétil redondo utilizado em canhões.
@@ -48808,7 +49099,7 @@ Classes que utilizam: ^777777Todas^000000
 Aí um dia você resolveu adotar um gatinho de rua. Até aí tudo bem. Você só não esperava que ele fosse super arredio e nervoso e grudasse na sua cabeça ao menor sinal de... bem, qualquer coisa! Agora ele passa a maior parte do tempo grudado em você e miando em sinal de reclamação de tudo. E nem pense em tirá-lo à força, se não quiser ficar careca.
 ^0000ffINT +2.^000000
 ^0000ffDEFM +5.^000000
-^0000ffIgnora 5% da DEFM dos oponentes.^000000
+^0000ffIgnora 5% da DEFM de monstros normais, chefes e personagens.^000000
 A cada refino:
 ^0000ffIgnora +1% da DEFM.^000000
 Refino +7 ou mais:
@@ -50731,9 +51022,9 @@ Quem poderia imaginar que essa gracinha de chapéu escondesse tanto poder mágic
 ^0000ffAGI +1. INT +2.^000000
 ^0000ffDano de [Abalo Sísmico] [Meteoro Escarlate] e [Esquife de Gelo] +10%.^000000
 Refino +7 ou mais:
-^0000ffIgnora 20% da DEFM dos monstros normais.^000000
+^0000ffIgnora 20% da DEFM de monstros normais e personagens.^000000
 Refino +9 ou mais:
-^0000ffIgnora +20% adicional da DEFM dos monstros normais.^000000
+^0000ffIgnora +20% de DEFM adicional.^000000
 Tipo: ^777777Equipamento para Cabeça^000000
 Equipa em: ^777777Topo^000000
 Defesa: ^7777775^000000
@@ -51886,6 +52177,31 @@ Equipa em: ^777777Meio^000000
 Defesa: ^7777770^000000
 Peso: ^77777710^000000
 Nível necessário: ^77777710^000000
+Classes: ^777777Todas^000000
+#
+19024#
+Angelical e imaculada, essa diadema caiu dos céus para abençoar os bem-afortunados com aventuras repletas de memórias inesquecíveis e tesouros preciosos.
+^0000ffDEFM +2.^000000
+^0000ffVelocidade de ataque^000000 ^ff0000-5%.^000000
+^0000ffResistência a Personagens +2%.^000000
+VIT base 108 ou mais:
+^0000ffVelocidade de ataque^000000 ^ff0000-5%^000000 ^0000ffadicional.^000000
+^0000ffResistência a Personagens +3% adicional.^000000
+VIT base 120 ou mais:
+^0000ffHP máx. +3%.^000000
+^0000ffDEFM +3 adicional.^000000
+^FA4E09Conjunto^000000
+^FA4E09Boina Alada [0]^000000
+^0000ffVelocidade de ataque +5%.^000000
+Boina com refino +7 ou mais:
+^0000ffVelocidade de ataque +5% adicional.^000000
+Boina com refino +9 ou mais:
+^0000ffHP máx. +5% adicional.^000000
+Tipo: ^777777Equipamento para Cabeça^000000
+Equipa em: ^777777Meio^000000
+Defesa: ^7777770^000000
+Peso: ^77777750^000000
+Nível necessário: ^77777770^000000
 Classes: ^777777Todas^000000
 #
 19038#
@@ -53199,6 +53515,31 @@ Peso: ^777777100^000000
 Nível necessário: ^77777790^000000
 Classes: ^777777Todas^000000
 #
+19381#
+Larga faixa de um tecido de maciez e textura incomparáveis. Especula-se que o brasão da ombreira e a asa de Valquíria fazem desse equipamento um acessório de origens celestiais.
+^0000ffDEFM +5.^000000
+^FA4E09Conjunto^000000
+^FA4E09[Diadema do Paraíso]^000000
+^0000ffVIT +5. DEF +50.^000000
+^0000ffDEFM +5 adicional.^000000
+^0000ffVelocidade de ataque +5%.^000000
+^0000ffResistência a Personagens +3%.^000000
+VIT base 108 ou mais:
+^0000ffVIT +5 adicional.^000000
+^0000ffDEF +50 adicional.^000000
+^0000ffDEFM +5 adicional.^000000
+^0000ffVelocidade de ataque +5% adicional.^000000
+VIT base 120 ou mais:
+^0000ffVIT +10 adicional.^000000
+^0000ffDEF +100 adicional.^000000
+^0000ffDEFM +10 adicional.^000000
+Tipo: ^777777Equipamento para Cabeça^000000
+Equipa em: ^777777Baixo^000000
+Defesa: ^7777770^000000
+Peso: ^77777730^000000
+Nível necessário: ^77777790^000000
+Classes: ^777777Todas^000000
+#
 19507#
 Um forte e ensolarado Sol com seu sorriso escaldante.
 Tipo : ^777777Visual^000000
@@ -53630,6 +53971,14 @@ Peso: ^7777770^000000
 Nível Necessário: ^7777771^000000
 Classes: ^777777Todas^000000
 #
+19605#
+É melhor te respeitarem, porque pra você, a lei não é nada! Ninguém manda em você, só você mesmo!
+Tipo : ^777777Visual^000000
+Equipa em : ^777777Baixo^000000
+Peso : ^7777770^000000
+Nível Necessário : ^7777771^000000
+Classes : ^777777Todas^000000
+#
 19607#
 Dizem que quando um filhote de fênix resolve se alojar em sua cabeça é sinal que você sempre voltará da morte. É o caso, por exemplo, do famoso cavaleiro Irk de Fênix, famoso por sempre reaparecer no ponto de retorno. Dizem que quando seu irmão caçula, Chun de Andrômeda, foi sorteado para ser treinado por Hela, a Rainha da Morte, em Niflheim, Irk acabou indo em seu lugar. Lá, ele se apaixonou pela jovem Chuna de Esmeralda, que estranhamente parecia muito seu irmão. Não se sabe os detalhes, mas ao voltar do treinamento, Irk havia se transformado num cavaleiro frio e sem coração, exceto quando corria para salvar seu irmão ou para cuidar do filhote de fênix em sua cabeça.
 Tipo : ^777777Visual^000000
@@ -53740,6 +54089,15 @@ Defesa: ^7777770 ^000000
 Equipa em: ^777777Topo ^000000
 Peso: ^7777770 ^000000
 Nível Necessário: ^7777771 ^000000
+Classes: ^777777Todas ^000000
+#
+19654#
+Comande sua frota, pegue o leme e inicie uma expedição de norte a sul em busca de terras, tesouros e aventuras intensas em alto-mar. NÃO acompanha saquinhos de emergência, caso você não se dê muito bem com longas viagens pelos oceanos.
+Tipo: ^777777Visual^000000
+Defesa: ^7777770 ^000000
+Equipa em: ^777777Topo^000000
+Peso: ^7777770 ^000000
+Nível Necessário: ^7777771^000000
 Classes: ^777777Todas ^000000
 #
 19656#
@@ -56667,6 +57025,15 @@ Peso: ^7777770^000000
 Nível Necessário: ^7777771^000000
 Classes: ^777777Todas^000000
 #
+20495#
+Nada como manter o cocuruto aquecido com um bichinho desses na sua cabeça. Mas nem tente ensiná-lo truques ou fazê-lo dar um passeio: apesar de ser uma fofura que só, ele não quer saber de nada que não seja ficar de boas na sua cabeça!
+Tipo: ^777777Visual^000000
+Defesa: ^7777770 ^000000
+Equipa em: ^777777Topo^000000
+Peso: ^7777770 ^000000
+Nível Necessário: ^7777771^000000
+Classes: ^777777Todas ^000000
+#
 20499#
 Uma cartola usada originalmente pelos magnatas mais bem sucedidos da Corporação Pata de Gato. Ela representa não apenas a capacidade de se fazer bons negócios, mas a habilidade de se fazer bons amigos, já que os gatos da corporação são conhecidos por serem muito simpáticos e sociáveis!
 Tipo: ^777777Visual^000000
@@ -56767,6 +57134,7 @@ Classes: ^777777Todas^000000
 #
 20535#
 Uma projeção de várias interfaces complexas. As pessoas provavelmente não farão ideia do que isso significa... Aliás, talvez nem você saiba o que todos aqueles códigos e números querem dizer. Mas parece muito futurista e legal.
+^008080Exibe efeito gráfico que pode ser desligado com /effect.^000000
 Tipo: ^777777Visual^000000
 Equipa em: ^777777Capa^000000
 Defesa: ^7777770^000000
@@ -57971,7 +58339,7 @@ Refino +7 ou mais:
 A cada ponto investido em [Esfera d'Água]:
 ^0000ffDano de [Esfera d'Água] +30%.^000000
 A cada ponto investido em [Congelar]:
-^0000ffIgnora +5% da DEFM do oponente.^000000
+^0000ffIgnora 5% da DEFM de monstros normais, chefes e personagens.^000000
 A cada refino da arma:
 ^0000ffDano de [Esfera d'Água] +20%.^000000
 ^0000ffDano mágico de propriedade Água +4%.^000000
@@ -58669,37 +59037,37 @@ Peso: ^7777770^000000
 #
 22521#
 Uma caixa contendo 1 Caixa de Poções Compactas Brancas e 5 Manuais de Campo de Classe,
-Esta caixa não pode ser derrubada no chão, negociada entre personagens, colocada no carrinho e na kafra.
+Atenção! Esse item não pode ser negociado, derrubado no chão e nem colocado no carrinho, mas pode se transferido para o armazém
 ^FF0000Só é possível abri-la quando seu personagem alcançar nível 80.^000000
 Peso: ^7777770^000000
 #
 22522#
 Uma caixa contendo 1 Álbum Velho de Cartas e 5 Manuais de Campo
-Esta caixa não pode ser derrubada no chão, negociada entre personagens, colocada no carrinho e na kafra.
+Atenção! Esse item não pode ser negociado, derrubado no chão e nem colocado no carrinho, mas pode se transferido para o armazém
 ^FF0000Só é possível abri-la quando seu personagem alcançar nível 100.^000000
 Peso: ^7777770^000000
 #
 22523#
 Uma caixa contendo 5 Manuais de Campo, 5 Manuais de Campo de Classe, 5 Chicletes, 5 Tickets de Seguro e 1 Caixa das Melhores Armas
-Esta caixa não pode ser derrubada no chão, negociada entre personagens, colocada no carrinho e na kafra.
+Atenção! Esse item não pode ser negociado, derrubado no chão e nem colocado no carrinho, mas pode se transferido para o armazém
 ^FF0000Só é possível abri-la quando seu personagem alcançar nível 120.^000000
 Peso: ^7777770^000000
 #
 22524#
 Uma caixa contendo 5 Manuais de Campo, 5 Chicletes, 5 Tickets de Seguro e 1 Álbum Mágico de Cartas.
-Esta caixa não pode ser derrubada no chão, negociada entre personagens, colocada no carrinho e na kafra.
+Atenção! Esse item não pode ser negociado, derrubado no chão e nem colocado no carrinho, mas pode se transferido para o armazém
 ^FF0000Só é possível abri-la quando seu personagem alcançar nível 130.^000000
 Peso: ^7777770^000000
 #
 22525#
 Uma caixa contendo 5 Manuais de Campo, 5 Chicletes, 5 Tickets de Seguro e 1 Pergaminho de Arma +7.
-Esta caixa não pode ser derrubada no chão, negociada entre personagens, colocada no carrinho e na kafra.
+Atenção! Esse item não pode ser negociado, derrubado no chão e nem colocado no carrinho, mas pode se transferido para o armazém
 ^FF0000Só é possível abri-la quando seu personagem alcançar nível 140.^000000
 Peso: ^7777770^000000
 #
 22526#
 Uma caixa contendo 5 Manuais de Campo, 5 Chicletes, 5 Tickets de Seguro e 1 Pergaminho de Armadura +7.
-Esta caixa não pode ser derrubada no chão, negociada entre personagens, colocada no carrinho e na kafra.
+Atenção! Esse item não pode ser negociado, derrubado no chão e nem colocado no carrinho, mas pode se transferido para o armazém
 ^FF0000Só é possível abri-la quando seu personagem alcançar nível 150.^000000
 Peso: ^7777770^000000
 #
@@ -59194,7 +59562,6 @@ Apesar de serem produzidos de puro aço, esses sapatos possuem um vínculo arcan
 ^0000ffHP máx. +10 por refino.^000000
 A cada 4 refinos:
 ^0000ffEXP adquirida por monstros +1%.^000000
-^ff0000Atenção! Esse item não pode ser negociado, colocado no carrinho e nem derrubado no chão, mas pode ser colocado no armazém.^000000
 Tipo: ^777777Equipamento Sombrio^000000
 Posição: ^777777Grevas^000000
 Defesa: ^7777770^000000
@@ -59212,7 +59579,6 @@ A cada 4 refinos:
 ^0000ffEXP adquirida por monstros +1% adicional.^000000
 Soma dos refinos do escudo + grevas maior ou igual a 15:
 ^0000ffEXP adquirida por monstros +1% adicional.^000000
-^ff0000Atenção! Esse item não pode ser negociado, colocado no carrinho e nem derrubado no chão, mas pode ser colocado no armazém.^000000
 Tipo: ^777777Equipamento Sombrio^000000
 Posição: ^777777Escudo^000000
 Defesa: ^7777770^000000
@@ -59225,7 +59591,6 @@ Apesar de serem produzidos de puro ferro, esses sapatos possuem um vínculo arca
 ^0000ffHP máx. +10 por refino.^000000
 A cada 2 refinos:
 ^0000ffEXP adquirida por monstros +1%.^000000
-^ff0000Atenção! Esse item não pode ser negociado, colocado no carrinho e nem derrubado no chão, mas pode ser colocado no armazém.^000000
 Tipo: ^777777Equipamento Sombrio^000000
 Posição: ^777777Grevas^000000
 Defesa: ^7777770^000000
@@ -59243,7 +59608,6 @@ A cada 2 refinos:
 ^0000ffEXP adquirida por monstros +5% adicional.^000000
 Soma dos refinos do escudo + grevas maior ou igual a 15:
 ^0000ffEXP adquirida por monstros +5% adicional.^000000
-^ff0000Atenção! Esse item não pode ser negociado, colocado no carrinho e nem derrubado no chão, mas pode ser colocado no armazém.^000000
 Tipo: ^777777Equipamento Sombrio^000000
 Posição: ^777777Escudo^000000
 Defesa: ^7777770^000000
@@ -59256,7 +59620,6 @@ Apesar de serem produzidos de puro duralumínio, esses sapatos possuem um víncu
 ^0000ffHP máx. +10 por refino.^000000
 A cada 3 refinos:
 ^0000ffEXP adquirida por monstros +1%.^000000
-^ff0000Atenção! Esse item não pode ser negociado, colocado no carrinho e nem derrubado no chão, mas pode ser colocado no armazém.^000000
 Tipo: ^777777Equipamento Sombrio^000000
 Posição: ^777777Grevas^000000
 Defesa: ^7777770^000000
@@ -59274,7 +59637,6 @@ A cada 3 refinos:
 ^0000ffEXP adquirida por monstros +2% adicional.^000000
 Soma dos refinos do escudo + grevas maior ou igual a 15:
 ^0000ffEXP adquirida por monstros +2% adicional.^000000
-^ff0000Atenção! Esse item não pode ser negociado, colocado no carrinho e nem derrubado no chão, mas pode ser colocado no armazém.^000000
 Tipo: ^777777Equipamento Sombrio^000000
 Posição: ^777777Escudo^000000
 Defesa: ^7777770^000000
@@ -59955,6 +60317,36 @@ Nível da arma: ^7777773^000000
 Nível mínimo: ^777777141^000000
 Classes: ^777777Insurgentes^000000
 #
+28256#
+Uma escopeta mágica de cano serrado. Suas origens sobrenaturais fazem dela uma arma de fogo muito procurada por caçadores de demônios do mundo inteiro.
+^CD3278Mantém [Espalhar Dano] ativo.^000000
+A cada 2 refinos:
+^0000ffDano físico a distância +3%.^000000
+A cada 3 refinos:
+^0000ffSP máx. +2%.^000000
+Refino +7 ou mais:
+^0000ffDano físico contra monstros chefes +10%.^000000
+Refino +9 ou mais:
+^0000ffAo usar [Proteção de Platina], ativa o [Efeito 1] por 90 segundos.^000000
+Refino +11 ou mais:
+^0000ffDano físico contra as raças Demônio e Morto-Vivo +15%.^000000
+^CD3278Efeito 1:^000000
+^0000ffATQ +50.^000000
+^0000ffDano físico a distância +10%.^000000
+^FA4E09Conjunto^000000
+^FA4E09[Botas Ancestrais]^000000
+Ao realizar ataques físicos:
+^0000ff3% de chance de ativar o [Efeito 2] por 7 segundos.^000000
+^CD3278Efeito 2:^000000
+^0000ffDES +20.^000000
+^0000ffDano físico a distância +10%.^000000
+Tipo: ^777777Espingarda^000000
+Ataque: ^777777275^000000
+Peso: ^777777140^000000
+Nível da arma: ^7777774^000000
+Nível necessário: ^777777100^000000
+Classes: ^777777Insurgentes^000000
+#
 28319#
 Uma cauda peluda que fará com que você pareça um demônio. Melhor tomar cuidado com demônios sem cauda, vai que eles roubem a sua.
 ^FF6347Conjunto^000000
@@ -60310,6 +60702,46 @@ Peso: ^77777740^000000
 Nível necessário: ^77777790^000000
 Classes: ^777777Todas^000000
 #
+28484#
+Pertenceu a um Insurgente que, após causar muita destruição, se amargurou com o que fez e abandonou essa vida, bem como este acessório.
+--------------------------
+^0000ffDano físico +5%.^000000
+^0000ffConjuração variável -10%.^000000
+^0000ffCusto de SP de [Descarregar Tambor] -5.^000000
+--------------------------
+A cada nível de [Lançar Míssil]:
+^0000ffDano crítico +3%.^000000
+A cada nível de [Reação Ilimitada]:
+^0000ffDano de [Saque Rápido] +5%.^000000
+A cada nível de [Disparo Labareda]:
+^0000ffPós-conjuração -1%.^000000
+^0000ffDano de [Disparo Labareda] +5%.^000000
+^0000ffCusto de SP de [Disparo Labareda] -4.^000000
+A cada nível de [Rajada Estilhaçante]:
+^0000ffRecarga de [Furor] -4 segundos.^000000
+^0000ffDano de [Rajada Estilhaçante] +10%.^000000
+^0000ffRecarga de [Rajada Estilhaçante] -0,1 segundo.^000000
+A cada nível de [Espiral Perfurante]:
+^0000ffVelocidade de ataque +2%.^000000
+^0000ffDano de [Espiral Perfurante] +5%.^000000
+^0000ffCusto de SP de [Espiral Perfurante] -2.^000000
+--------------------------
+Ao aprender [Lançar Míssil] nv. 1:
+^0000ffAo usar [Marcar em Brasa], 100% de chance de ativar um [efeito] por 50 segundos.^000000
+--------------------------
+^CD3278Efeito:^000000
+^008080Tem 50 segundos de recarga.^000000
+Ao realizar ataques físicos com Lança-Granadas:
+^0000ffChance de autoconjurar [Lançar Míssil] nv. 1 ou no nível aprendido.^000000
+A cada nível de [Lançar Míssil]:
+^0000ffChance de autoconjurar [Lançar Míssil] +1%.^000000
+--------------------------
+Tipo: ^777777Acessório^000000
+Defesa: ^7777770^000000
+Peso: ^77777740^000000
+Nível necessário: ^777777100^000000
+Classes: ^777777Todas^000000
+#
 28492#
 Normalmente, espiar o diário de alguém seria falta de educação, mas não se preocupe: os conhecimentos descritos nesse livro são repassados de geração em geração aos Renegados para que eles aprimorem suas técnicas.
 ^0000ffFOR +5. AGI +5. INT +5.^000000
@@ -60638,6 +61070,24 @@ Peso: ^77777750^000000
 Nível necessário: ^77777780^000000
 Classes: ^777777Todas^000000
 #
+28551#
+Um par de luvas pertencente aos guardiões da elite do reino de Rune-Midgard. O reforço e a aderência extras as tornam perfeitas para empunhar qualquer tipo de arma.
+^0000ffDano físico +5%.^000000
+^0000ffConjuração variável -10%.^000000
+^0000ffA conjuração não pode ser interrompida.^000000
+^FA4E09Conjunto^000000
+^FA4E09[Diadema do Grifo]^000000
+^0000ffDano de [Lança do Destino] e [Disparo Perfurante] +20%.^000000
+A cada nível de [Lança do Destino]:
+^0000ffDano físico a distância +2%.^000000
+A cada nível de [Disparo Perfurante]:
+^0000ffDano físico a distância +2%.^000000
+Tipo: ^777777Acessório^000000
+Defesa: ^7777770^000000
+Peso: ^77777740^000000
+Nível necessário: ^777777100^000000
+Classes: ^777777Todas^000000
+#
 28561#
 Escamas de um lendário dragão adornam esse acessório, que foi usado por um herói que encarou incontáveis lutas e perigos.
 --------------------------
@@ -60813,7 +61263,7 @@ Refino +1 ou mais:
 A cada refino a partir do +2:
 ^0000ffDuração do [efeito] +1 segundo.^000000
 ^CD3278Efeito:^000000
-^0000ffIgnora 100% da DEFM de monstros normais e Chefes.^000000
+^0000ffIgnora 100% da DEFM de monstros normais, chefes e personagens.^000000
 ^FF6347Conjunto^000000
 ^FF6347[Anel Espiritual]^000000
 ^0000ffConjuração variável de [Magnus Exorcismus] -25%.^000000
@@ -61588,6 +62038,78 @@ Peso: ^7777770^000000
 Nível Necessário: ^7777771^000000
 Classes: ^777777Todas^000000
 #
+31063#
+Resplandece e vibra como o azul de um vasto oceano. Dá até vontade de dar um mergulho, ou singrar os sete mares e explorar águas jamais conhecidas!
+Tipo: ^777777Visual^000000
+Defesa: ^7777770^000000
+Equipa em: ^777777Baixo^000000
+Peso: ^7777770^000000
+Nível Necessário: ^7777771^000000
+Classes: ^777777Todas^000000
+#
+31064#
+Pra aqueles dias que você acordou com o pé esquerdo e tá com a fúria pra derrotar mil Porings. Use esse coque vermelhão pra mostrar que você não tá pra brincadeira!
+Tipo: ^777777Visual^000000
+Defesa: ^7777770^000000
+Equipa em: ^777777Baixo^000000
+Peso: ^7777770^000000
+Nível Necessário: ^7777771^000000
+Classes: ^777777Todas^000000
+#
+31065#
+Nem tudo que brilha é ouro - pode ser só alguém muito estiloso que decidiu usar esse par de belos coques áureos, feitos para te acompanhar em uma aventura bizarra.
+Tipo: ^777777Visual^000000
+Defesa: ^7777770^000000
+Equipa em: ^777777Baixo^000000
+Peso: ^7777770^000000
+Nível Necessário: ^7777771^000000
+Classes: ^777777Todas^000000
+#
+31066#
+Verdejantes como a natureza, estes adornos complementam o visual de um amante da primavera que quer viver da arte.
+Tipo: ^777777Visual^000000
+Defesa: ^7777770^000000
+Equipa em: ^777777Baixo^000000
+Peso: ^7777770^000000
+Nível Necessário: ^7777771^000000
+Classes: ^777777Todas^000000
+#
+31067#
+O acessório ideal pra qualquer ocasião que seja um pouquinho mais macabra: Festas à fantasia! Dia das Bruxas! Rituais de sacrifício de adoração ao Bafomé!
+Tipo: ^777777Visual^000000
+Defesa: ^7777770^000000
+Equipa em: ^777777Baixo^000000
+Peso: ^7777770^000000
+Nível Necessário: ^7777771^000000
+Classes: ^777777Todas^000000
+#
+31068#
+A pureza do branco nesse par de coques reflete a paz de espírito de quem o usa. Um aventureiro usando o Coque Puro não quer guerra com ninguém!
+Tipo: ^777777Visual^000000
+Defesa: ^7777770^000000
+Equipa em: ^777777Baixo^000000
+Peso: ^7777770^000000
+Nível Necessário: ^7777771^000000
+Classes: ^777777Todas^000000
+#
+31069#
+Se você já se perguntou qual é a cor de burro-quando-foge, suas dúvidas acabaram - é da cor deste coque aqui. Mas sem julgamentos, OK? Essa cor não é... Incomum. Não é não. Nadinha.
+Tipo: ^777777Visual^000000
+Defesa: ^7777770^000000
+Equipa em: ^777777Baixo^000000
+Peso: ^7777770^000000
+Nível Necessário: ^7777771^000000
+Classes: ^777777Todas^000000
+#
+31070#
+Se alguém te ver usando um desses, a pessoa já vai saber que você aprecia ou está envolvido com temas esotéricos. Talvez magias negras e invocações, ou talvez só leitura de signos e mapas astrais.
+Tipo: ^777777Visual^000000
+Defesa: ^7777770^000000
+Equipa em: ^777777Baixo^000000
+Peso: ^7777770^000000
+Nível Necessário: ^7777771^000000
+Classes: ^777777Todas^000000
+#
 31087#
 Um modelo fiel da barba dos antigos Vikings. Embora estivessem sempre munidos de vestimentas pesadas, armas e armaduras, a barba robusta sempre foi seu grande símbolo de força e seriedade, além de uma tradição passada para seus queridos filhos.
 Tipo: ^777777Visual^000000
@@ -61997,6 +62519,78 @@ Classes: ^777777Todas^000000
 #
 31209#
 Você finalmente deixou suas belas madeixas crescerem e agora é dono de uma vasta cabeleira... Mesmo que isso seja apenas uma peruca! Se você sempre quis se parecer com o guerreiro yokai Inu Se Acha, com o líder do Bando do Falcão, Graffite ou com a famosa arruaceira Gatuna Negra, essa é a sua chance.
+Tipo: ^777777Visual^000000
+Defesa: ^7777770^000000
+Equipa em: ^777777Baixo^000000
+Peso: ^7777770^000000
+Nível Necessário: ^7777771^000000
+Classes: ^777777Todas^000000
+#
+31218#
+O azul exótico dessas madeixas representa a infinidade dos céus de uma bela tarde. E não se preocupe: esse é só o nome do penteado; nenhum unicórnio foi maltratado!
+Tipo: ^777777Visual^000000
+Defesa: ^7777770^000000
+Equipa em: ^777777Baixo^000000
+Peso: ^7777770^000000
+Nível Necessário: ^7777771^000000
+Classes: ^777777Todas^000000
+#
+31219#
+Rabo de cavalo? Nada disso, este aqui é um Rabo de Unicórnio! O vermelho intenso desses cabelos vai mostrar a todos a sua personalidade eufórica e otimista.
+Tipo: ^777777Visual^000000
+Defesa: ^7777770^000000
+Equipa em: ^777777Baixo^000000
+Peso: ^7777770^000000
+Nível Necessário: ^7777771^000000
+Classes: ^777777Todas^000000
+#
+31220#
+Agora você sabe que unicórnios têm rabos mais longos que os de cavalos. Coloque esse penteado dourado e mostre ao mundo que você veio pra brilhar e ser o número um!
+Tipo: ^777777Visual^000000
+Defesa: ^7777770^000000
+Equipa em: ^777777Baixo^000000
+Peso: ^7777770^000000
+Nível Necessário: ^7777771^000000
+Classes: ^777777Todas^000000
+#
+31221#
+Apesar do nome, equipar este item não significa que você é uma pessoa azeda e de mal com tudo e todos. Se a vida te der um Rabo de Unicórnio Limão, use-o!
+Tipo: ^777777Visual^000000
+Defesa: ^7777770^000000
+Equipa em: ^777777Baixo^000000
+Peso: ^7777770^000000
+Nível Necessário: ^7777771^000000
+Classes: ^777777Todas^000000
+#
+31222#
+Doce como um Sniquers, esse é um rabo de unicórnio que você vai querer ter – principalmente se for um chocólatra de marca maior!
+Tipo: ^777777Visual^000000
+Defesa: ^7777770^000000
+Equipa em: ^777777Baixo^000000
+Peso: ^7777770^000000
+Nível Necessário: ^7777771^000000
+Classes: ^777777Todas^000000
+#
+31223#
+Leve, discreto e elegante. E também a desculpa perfeita pra você pedir para os seus amigos “respeitarem seus cabelos brancos”.
+Tipo: ^777777Visual^000000
+Defesa: ^7777770^000000
+Equipa em: ^777777Baixo^000000
+Peso: ^7777770^000000
+Nível Necessário: ^7777771^000000
+Classes: ^777777Todas^000000
+#
+31224#
+Uma bela mecha comprida e bronzeada. Só não se esqueça de sempre andar no sol, porque essas madeixas vão reluzir intensamente sob a luz!
+Tipo: ^777777Visual^000000
+Defesa: ^7777770^000000
+Equipa em: ^777777Baixo^000000
+Peso: ^7777770^000000
+Nível Necessário: ^7777771^000000
+Classes: ^777777Todas^000000
+#
+31225#
+De 0 a 10, esse acessório é nota 11 na extravagância. Viaje pelos quatro cantos de Rune-Midgard ostentando esse cabelo roxão e chame a atenção de todo mundo!
 Tipo: ^777777Visual^000000
 Defesa: ^7777770^000000
 Equipa em: ^777777Baixo^000000
@@ -62601,6 +63195,14 @@ Classes : ^777777Todas^000000
 #
 31587#
 É o Sol? Uma bola de boliche? Um Vigia do Tempo que criou pernas? Não! É só alguém usando esse SENHOR capacete que deixa qualquer um com uma cabeça de nós todos. Ele foi projetado para resistir a uma queda das alturas de Kunlun até o chão!
+Tipo : ^777777Visual^000000
+Equipa em : ^777777Topo^000000
+Peso : ^7777770^000000
+Nível Necessário : ^7777771^000000
+Classes : ^777777Todas^000000
+#
+31598#
+Com todas essas folhas e galhos, você estará convertendo dióxido de carbono em oxigênio onde quer que esteja. Bem orgânico – só não se esqueça de regar o chapéu!
 Tipo : ^777777Visual^000000
 Equipa em : ^777777Topo^000000
 Peso : ^7777770^000000

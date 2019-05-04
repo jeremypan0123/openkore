@@ -2348,6 +2348,13 @@
 4630#Carta Diretor#
 4631#Carta Visconde Coruja#
 4632#Carta Marquês Coruja#
+4652#Carta Amon Ra do Pesadelo#
+4653#Carta Arclouse do Pesadelo#
+4654#Carta Mímico do Pesadelo#
+4655# Carta Minorous do Pesadelo#
+4656#Carta Múmia do Pesadelo#
+4657#Carta Múmia Anciã do Pesadelo#
+4658#Carta Verit do Pesadelo#
 4697#Carta Charleston 03#
 4698#Carta Roboring#
 4699#Carta Mecha v2.0#
@@ -3199,6 +3206,7 @@
 5919#Kanzashi de Camélias#
 5930#Tiara da Valquíria Mágica#
 5931#Chapéu de Poltergeist#
+5932#Liberdade da Natureza#
 5933#Máscara do Tengu Corvo#
 5945#Lápis Mastigado#
 5967#Galapago Voador#
@@ -4764,6 +4772,7 @@
 12276#Assistente Mímico#
 12277#Assistente Mascarado#
 12278#Assistente Alice#
+12291#Garrafa de Água#
 12292#Fruto de Yggdrasil Amargo#
 12293#Fruto de Yggdrasil Desidratado#
 12298#Suco de Gato#
@@ -6236,6 +6245,7 @@
 19019#Coroa da Rainha de Copas#
 19020#Tiara Arcana#
 19022#Cristal Filosofal#
+19024#Diadema do Paraíso#
 19038#Coroa do 11º Aniversário do bRO#
 19039#Orelhas do 11º Aniversário do bRO#
 19048#Traje de Luta Jogos Vorags#
@@ -6300,6 +6310,7 @@
 19318#Rosário da Guarda Real#
 19321#Pombinho Branco#
 19326#Livros da Sabedoria #
+19381#Echarpe do Paraíso#
 19507#Sol Risonho#
 19509#Asas de Borboleta#
 19510#Parafusos Soltos#
@@ -6350,6 +6361,7 @@
 19602#Chapéu Invisível#
 19603#Óculos Invisíveis#
 19604#Máscara Invisível#
+19605#Lenço do Fora da Lei#
 19607#Filhote de Fênix#
 19612#Fones Audio-Poring#
 19614#Supervisual de Aprendiz#
@@ -6363,6 +6375,7 @@
 19649#Orelhas Brancas de Gatinho#
 19650#Adorno Arco-íris#
 19652#Cartola Visual de Mágico#
+19654#Chapéu do Timoneiro#
 19656#Chapéu do Bardo Verde#
 19657#Quepe do Capitão#
 19661#Cartola Adocicada#
@@ -6689,6 +6702,7 @@
 20472#Elmo do Anjo#
 20482#Gaiola Florida#
 20487#Valsa da Primavera#
+20495#Quati Preguiçoso#
 20499#Cartola da Pata de Gato#
 20504#Asas da Sarakura#
 20506#Manto Invisível#
@@ -6950,6 +6964,7 @@
 28200#Lança-Granadas Caos Total#
 28201#Cruz Meridional#
 28202#Cruz Meridional#
+28256#Escopeta Ancestral#
 28319#Cauda Demoníaca#
 28321#Garra do Falcoeiro#
 28322#Luva do Falcoeiro#
@@ -6968,6 +6983,7 @@
 28434#Luvas do Pugilista#
 28437#Luvas de Restauração#
 28438#Pó de Fada#
+28484#Lenço do Insurgente#
 28492#Diário do Renegado#
 28501#Chifres de Kirin#
 28502#Lenço Infame#
@@ -6981,6 +6997,7 @@
 28535#Amuleto da Sabedoria#
 28537#Colar de Juperos#
 28538#Luvas de H. Motto#
+28551#Luvas Imperiais#
 28561#Anel Dracônico do Veterano#
 28564#Lágrima de Valquíria#
 28572#Broche da Celine#
@@ -7035,6 +7052,14 @@
 31055#Sopra-Poring de Sabão#
 31057#Cachecol Preto do Eremes#
 31062#Peruca de Eleanor #
+31063#Coque Oceano#
+31064#Coque Labareda#
+31065#Coque Áureo#
+31066#Coque Primavera#
+31067#Coque Trevoso#
+31068#Coque Puro#
+31069#Coque Castanho#
+31070#Coque Místico#
 31087#Barba Viking#
 31088#Chapéu de Bicho Papão#
 31089#Fúria dos Shuras#
@@ -7082,6 +7107,14 @@
 31203#Churrasquelmo#
 31208#Cabelo Longo Loiro#
 31209#Cabelo Longo Branco#
+31218#Rabo de Unicórnio Céu#
+31219#Rabo de Unicórnio Rubi#
+31220#Rabo de Unicórnio Ouro#
+31221#Rabo de Unicórnio Limão#
+31222#Rabo de Unicórnio Choco#
+31223#Rabo de Unicórnio Neve#
+31224#Rabo de Unicórnio Bronze#
+31225#Rabo de Unicórnio Lilás#
 31244#Elmo das Falcoeiras de Rapina#
 31249#Orelhas do Coelho da Lua#
 31251#Boca de Gatinho#
@@ -7153,6 +7186,7 @@
 31575#Peruca Turquesa de Waifu#
 31586#Cachecol de Poporing#
 31587#Super Capacete de Kunlun#
+31598#Chapéu Natureba#
 32018#Lança Ancestral#
 32205#Anel de Esmeralda#
 32221#Anel do Senhor do Tempo#

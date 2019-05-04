@@ -25,6 +25,7 @@ use Network::PacketParser; # import
 use base qw(Network::PacketParser);
 use utf8;
 use Carp::Assert;
+use Utils::Assert;
 use Scalar::Util;
 use Socket qw(inet_aton inet_ntoa);
 
@@ -757,7 +758,7 @@ sub received_characters {
 		message T("Waiting for PIN code request\n"), "connection";
 		$timeout{'charlogin'}{'time'} = time;
 
-	} elsif ($masterServer->{pauseCharLogin}) {
+	} elsif ($config{pauseCharLogin}) {
 		return if($config{XKore} eq 1 || $config{XKore} eq 3);
 		if (!defined $timeout{'char_login_pause'}{'timeout'}) {
 			$timeout{'char_login_pause'}{'timeout'} = 2;
@@ -5186,7 +5187,7 @@ sub job_equipment_hair_change {
 	return unless changeToInGameState();
 
 	my $actor = Actor::get($args->{ID});
-	assert(UNIVERSAL::isa($actor, "Actor")) if DEBUG;
+	assertClass($actor, "Actor") if DEBUG;
 
 	if ($args->{part} == 0) {
 		# Job change
@@ -6846,15 +6847,16 @@ sub search_store_fail {
 
 sub search_store_result {
 	my ($self, $args) = @_;
-	my $unpackString = "a4 a4 a80 v C V v C a16";
+	my $step = (length($args->{storeInfo}) % 114 == 0) ? 114 : 131;
+	my $unpackString = "a4 a4 a80 v C V v C a16" . (($step == 114) ? "" : " a17");
 
 	@{$universalCatalog{list}} = () if $args->{first_page};
 	$universalCatalog{has_next} = $args->{has_next};
 
 	my @universalCatalogPage;
 
-	for (my $i = 0; $i < length($args->{storeInfo}); $i += 106) {
-		my ($storeID, $accountID, $shopName, $nameID, $itemType, $price, $amount, $refine, $cards) = unpack($unpackString, substr($args->{storeInfo}, $i));
+	for (my $i = 0; $i < length($args->{storeInfo}); $i += $step) {
+		my ($storeID, $accountID, $shopName, $nameID, $itemType, $price, $amount, $refine, $cards, $unknown) = unpack($unpackString, substr($args->{storeInfo}, $i, $step));
 
 		my @cards = unpack "v4", $cards;
 
@@ -6869,6 +6871,7 @@ sub search_store_result {
 			refine => $refine,
 			cards_nameID => $cards,
 			cards => \@cards,
+			unknown => $unknown
 		};
 
 		push(@universalCatalogPage, $universalCatalogInfo);
