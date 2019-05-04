@@ -111,6 +111,26 @@ PathFinding__reset(session, weight_map, avoidWalls, width, height, startx, start
 		session->startY = (int) SvUV (starty);
 		session->endX = (int) SvUV (destx);
 		session->endY = (int) SvUV (desty);
+	
+		if (session->startX >= session->width || session->startY >= session->height || session->startX < 0 || session->startY < 0) {
+			printf("[pathfinding reset error] Start coordinate is out of the map.\n");
+			XSRETURN_NO;
+		}
+		
+		if (session->map_base_weight[((session->startY * session->width) + session->startX)] == 0) {
+			printf("[pathfinding reset error] Start coordinate is not a walkable cell.\n");
+			XSRETURN_NO;
+		}
+	
+		if (session->endX >= session->width   || session->endY >= session->height   || session->endX < 0   || session->endY < 0) {
+			printf("[pathfinding reset error] End coordinate is out of the map.\n");
+			XSRETURN_NO;
+		}
+		
+		if (session->map_base_weight[((session->endY * session->width) + session->endX)] == 0) {
+			printf("[pathfinding reset error] End coordinate is not a walkable cell.\n");
+			XSRETURN_NO;
+		}
 		
 		session->avoidWalls = (unsigned short) SvUV (avoidWalls);
 		session->time_max = (unsigned int) SvUV (time_max);
@@ -173,22 +193,20 @@ PathFinding_run(session, solution_array)
 			av_extend (array, session->solution_size);
 			
 			Node currentNode = session->currentMap[(session->endY * session->width) + session->endX];
-			
-			Node predecessor;
 
 			while (currentNode.x != session->startX || currentNode.y != session->startY)
 			{
-				predecessor = session->currentMap[currentNode.predecessor];
-				
 				HV * rh = (HV *)sv_2mortal((SV *)newHV());
 
-				hv_store(rh, "x", 1, newSViv(predecessor.x), 0);
+				hv_store(rh, "x", 1, newSViv(currentNode.x), 0);
 
-				hv_store(rh, "y", 1, newSViv(predecessor.y), 0);
+				hv_store(rh, "y", 1, newSViv(currentNode.y), 0);
 				
-				av_push(array, newRV((SV *)rh));
+				av_unshift(array, 1);
+
+				av_store(array, 0, newRV((SV *)rh));
 				
-				currentNode = predecessor;
+				currentNode = session->currentMap[currentNode.predecessor];
 			}
 			
 			RETVAL = size;
@@ -214,24 +232,20 @@ PathFinding_runref(session)
 			av_extend(results, session->solution_size);
 			
 			Node currentNode = session->currentMap[(session->endY * session->width) + session->endX];
-			
-			Node predecessor;
 
 			while (currentNode.x != session->startX || currentNode.y != session->startY)
 			{
-				predecessor = session->currentMap[currentNode.predecessor];
-				
 				HV * rh = (HV *)sv_2mortal((SV *)newHV());
 
-				hv_store(rh, "x", 1, newSViv(predecessor.x), 0);
+				hv_store(rh, "x", 1, newSViv(currentNode.x), 0);
 
-				hv_store(rh, "y", 1, newSViv(predecessor.y), 0);
+				hv_store(rh, "y", 1, newSViv(currentNode.y), 0);
 				
 				av_unshift(results, 1);
 
 				av_store(results, 0, newRV((SV *)rh));
 				
-				currentNode = predecessor;
+				currentNode = session->currentMap[currentNode.predecessor];
 			}
 			
 			RETVAL = newRV((SV *)results);
